@@ -113,7 +113,7 @@ public class Register extends AppCompatActivity {
         } else if (phoneNo.isEmpty() || phoneNo.equals("")) {
             editText_phoneNo.requestFocus();
             editText_phoneNo.setError(getResources().getString(R.string.please_enter_phone));
-        }else if (!password.equals(conform_password)) {
+        } else if (!password.equals(conform_password)) {
             Toast.makeText(this, getResources().getString(R.string.password_not_match), Toast.LENGTH_SHORT).show();
         } else {
 
